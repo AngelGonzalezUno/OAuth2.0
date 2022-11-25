@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restAssuredValidatedLinks.RestAssuredValidatedLinks">
+      <class name="restAssuredSerialization.RestAssuredJsonAsDataProvider">
         <methods>
-          <include name="ValidatedLinks"/>
-          <include name="StartUp"/>
-          <include name="TearDown"/>
+          <include name="test01"/>
         </methods>
-      </class> <!-- restAssuredValidatedLinks.RestAssuredValidatedLinks -->
+      </class> <!-- restAssuredSerialization.RestAssuredJsonAsDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
